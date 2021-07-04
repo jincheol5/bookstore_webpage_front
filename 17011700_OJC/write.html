@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  
+  <title>WRITE</title>
+  <style>
+
+    @import url(semantic.css);
+    #title{
+      text-align: center;
+      color:yellow;
+      font-size:100px;
+    }
+    .section_text{
+      
+      margin: auto;
+      width: 90%;
+      height: 60%;
+      background-color: white;
+      border:10px double brown;
+    }
+    .footer_text{
+      margin: auto;
+      width: 90%;
+      height: 15%;
+    
+    
+    }
+    .wood{
+      background-image: url('images/board.jpg');
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+
+    }
+    .footer_text > div{
+      
+      display: inline-block;
+      width: 15%;
+      text-align: center;
+      font-size: 30px;
+      background-color: white;
+      border: 10px double brown;
+    }
+    div > div > #on{
+      font-family: "LAB디지털";
+      color: brown;
+    }
+    .title{
+      width: 100%;
+      height: 20%;
+      margin: auto;
+    }
+    .text{
+      width: 100%;
+      height: 80%;
+      margin: auto;
+    }
+    .title > input{
+      border:5px double brown;
+
+    }
+    .text > input{
+      border:5px double brown;
+    }
+    div > label{
+      color: brown;
+      font-size: 30px;
+      font-family: "LAB디지털";
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1 id=title>TALK</h1>
+  </header>
+  <nav class=nav></nav>
+  <section class=section>
+    <div id=gray_back>
+      <div class="wood">
+        <div style="height: 10%;"></div>
+        <div class="section_text">
+          <div style="height: 10%;"></div>
+          <div class="title">
+            <label>제목 : </label><input type="text" style="width: 80%; height:30%">
+          </div>
+          <div class="text"> 
+            <label>내용 : </label><input type="text" style="width: 80%; height:80%">
+          </div>
+        </div>
+        <div style="height: 5%;"></div>
+        <div class="footer_text" >
+          <div style="width: 23%; border:none"></div>
+          <div id="on"><a href="curriculum.html" style="text-decoration: none; color:brown">HOME</a></div>
+          <div onclick="history.back()" id="on">글 올리기</div>
+          <div onclick="history.back()" id="on">뒤로가기</div>
+          
+        </div>
+        <div style="height: 10%;"></div>
+
+      </div>
+      
+    </div>
+  </section>
+
+  <aside class=aside></aside>
+
+  <footer class=footer></footer>
+  
+
+
+
+</body>
+</html>
